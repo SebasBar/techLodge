@@ -84,3 +84,49 @@ footer {
     }
 
   }
+
+  .theory1 { 
+    text-align: left;
+    border: 3px solid lightblue;
+  }
+  
+  .happy1 { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  
+  
+  .pic1 {  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  .pic2 {  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  .pic3 {  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .pic4 {  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .pic5 {  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
