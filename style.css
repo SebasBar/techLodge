@@ -1,5 +1,12 @@
 body {
+  background-color: rgb(245, 241, 241);
 
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1{
@@ -18,10 +25,10 @@ h3{
 }
 
 .menu-bar {
+  /* position: fixed; */
   overflow: hidden;
-  background-color: rgb(151, 148, 148);
+  background-color: rgb(81, 196, 224);
   width: 90%;
-  align-items: center;
   margin-left: auto;
   margin-right: auto;
   border-radius: 25px;
@@ -30,7 +37,9 @@ h3{
     float: left;
     display: block;
     color: white;
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
@@ -43,7 +52,7 @@ h3{
   }
 
   .active {
-    background-color: red;
+    background-color: rgb(48, 145, 236);
     color: black;
   }
 
@@ -56,13 +65,13 @@ h3{
   }
 
   .main-img{
-    background-color: #aaa;
+    background-color: rgb(81, 196, 224);
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 85%;
     height: 500px;
-    padding: 20px;
+    padding: 15px;
   }
 
   .mid-img{
@@ -86,7 +95,7 @@ h3{
 
 footer {
     text-align: center;
-    background-color: rgb(151, 148, 148);
+    background-color: rgb(81, 196, 224);
     color: white;
     padding: 3px;
 
@@ -125,19 +134,8 @@ footer {
     
   }
 
-  @media screen and (max-width: 900px) {
-    .pic-text {   
-      grid-template-columns: 1fr;
-      order: -1;
-    }
-
-    .menu-bar{ 
-    }
-
-  }
-
   .theory1 { 
-    text-align: left;
+    text-align: centert;
     border: 3px solid lightblue;
   }
   
@@ -148,12 +146,19 @@ footer {
     width: 40%;
   }
   
-  
+  .pics{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+
   .pic1 {  
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+    padding: 20px;
   }
 
   .pic2 {  
@@ -161,6 +166,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+    padding: 20px;
   }
 
   .pic3 {  
@@ -168,16 +174,78 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+    padding: 20px;
   }
   .pic4 {  
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+    padding: 20px;
   }
   .pic5 {  
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+    padding: 20px;
   }
+.home-button{
+  display: block;
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+.packages-box{
+  border-style: solid;
+  display: grid;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  
+  }
+
+
+.pic-box{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: #aaa;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+
+.text-box{
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+}
+
+.box-menu{
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+}
+
+.button-box{
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+
+@media screen and (max-width: 900px) {
+  .pic-text {   
+    grid-template-columns: 1fr;
+    order: -1;
+  }
+
+  .menu-bar{ 
+  }
+
+}

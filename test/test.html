@@ -1,25 +1,23 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>How to Create and Save text file in JavaScript</title>
-    <script src="../src/FileSaver.js"></script>
-
-    <script>
-
-
-        function saveStaticDataToFile() {
-            var blob = new Blob(["Welcome to Websparrow.org."],
-                { type: "text/plain;charset=utf-8" });
-            saveAs(blob, "static.txt");
-        }
-		
-    </script>
-</head>
-<body>
-
-    <button type="button" onclick="saveStaticDataToFile();">Click to Save</button>
-
-</body>
-</html>
+<input id= “text”/>
+<button onclick =“run()“>RUN</button>
+<input id=“output”/>
+<script>
+  function highestNumber(array){
+    let winner = 0;
+    for (const number of array){
+      if(number > winner){
+        winner = number;
+      }
+    }
+    return winner;
+  }
+  function run(){
+    const text = document.getElementById(“text”);
+    const output = document.getElementById(“output”);
+    const stringArray = text.value.split(“,”);
+    // console.log(“String turns into an array: ” + stringArray);
+    const numbersArray = stringArray.map((s) => parseInt(s,10));
+    // console.log(“Array turns into an numbers: ” + numbersArray);
+    output.value = highestNumber(numbersArray);
+  }
+</script>
