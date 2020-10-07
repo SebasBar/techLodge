@@ -28,6 +28,15 @@ h3{
 
 h4{
   color: rgb(0, 111, 119);
+  font-size: 22px;
+  text-align: justify;    
+
+}
+
+h5{
+  margin: 5%;
+  text-align: justify;
+  font-size: 18px;
 }
 
 .menu-bar {
@@ -90,9 +99,6 @@ h4{
 
   .mid-text{
     width: 500px;
-    font-size: larger;
-    text-align: justify;
-
   }
 
   footer {
@@ -106,19 +112,20 @@ h4{
     color:whitesmoke;
   }
 
-  option {
+  select {
     background: whitesmoke;
     color:whitesmoke;
   }
 
   input[type=text], select, textarea {
-    width: 100%;
+    width: 98%;
     padding: 12px;
     color: rgb(6, 56, 97);
     border: 1px solid #ccc;submit
     margin-bottom: 16px;
 
   }
+
 
   .submit {
     background-color: rgb(67, 162, 185);
@@ -168,40 +175,35 @@ h4{
   .pic1 {  
     display: block;
     margin: auto;
-    padding: 4px;
-    background-color: rgb(165, 11, 49);
+    padding: 20px;
+  
   }
 
   .pic2 {  
     display: block;
     margin: auto;
-    padding: 4px;
-    background-color: rgb(7, 196, 196);
+    padding: 20px;
   }
 
   .pic3 {  
     display: block;
     margin: auto;
-    padding: 4px;
-    background-color: rgb(105, 7, 196);
+    padding: 20px;
   }
   .pic4 {  
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 4px;
-    background-color: rgb(196, 61, 7);
+    margin: auto;
+    padding: 20px;
   }
   .pic5 {  
     display: block;
     margin: auto;
-    padding: 4px;
-    background-color: rgb(61, 196, 7);
+    padding: 20px;
   }
 
 .home-button{
   display: block;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-right: auto;
 }
 
@@ -215,48 +217,54 @@ h4{
   border-style: solid;
   border-color: rgb(64, 147, 224);
   border-radius: 20px;
-  width: 800px;
+  width: 1000px;
   padding: 20px;
-  background: rgb(198, 240, 236);
-  
+  background: rgb(198, 240, 236);    
   }
 
 
 .pic-box{
   grid-row-start: 1;
   grid-row-end: 3;
-  background-color: rgb(81, 196, 224);
+  background-color: black;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   padding: 5px;
+  grid-column-start: 0;
+  grid-column-end: 1;
 }
 
 
 .text-box{
   grid-row-start: 1;
   grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 4;
 
 }
 
 .box-menu{
   grid-row-start: 1;
   grid-row-end: 2;
+  grid-column-start: 5;
+  grid-column-end: 6;
 
 }
 
 .button-box{
   grid-row-start: 2;
   grid-row-end: 3;
+  grid-column-start: 5;
+  grid-column-end: 6;
 }
 
 
 @media screen and (max-width: 900px) {
   .pic-text {   
     grid-template-columns: 1fr;
-    order: -1;
   }
 
   .menu-bar{ 
