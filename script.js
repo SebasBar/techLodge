@@ -1,3 +1,13 @@
+
+
+function newId() {
+    const shortId = require('short-uuid');
+    console.log(shortId.generate());
+}
+
+
+
+
 function writeToFile() { 
 
     var firstName = document.getElementById("first-name").value; 
@@ -11,6 +21,8 @@ function writeToFile() {
     var blob = new Blob([information], {type: "text/plain;charset=utf-8"});
     saveAs(blob, `${firstName}.txt`);
 }
+
+
 
 function clearSelection1(){
 
