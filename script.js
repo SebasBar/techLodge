@@ -1,11 +1,75 @@
+// function newId(){
+// const shortid = require('shortid');
+// let newId = shortid.generate();
+// console.log(newId);
+// }
+
+function quote1(){
+
+    var emailQuote1 = document.getElementById("email-quote1").value.trim();
+    if (emailQuote1.indexOf("@") === -1 || emailQuote1.indexOf(" ") != -1) {
+        alert("Please enter a valid e-mail address");
+    return;
+    }
+
+    var numberOfPeople = document.getElementById("number-people1").value;
+    var option1;
+    var option2;
+    var option3;
+    var option4;
+
+    document.getElementById('option1').checked === true ? 
+    option1 = "selected" :
+    option1 = "not selected";
+
+    document.getElementById('option2').checked === true ? 
+    option2 = "selected" :
+    option2 = "not selected";
+
+    document.getElementById('option3').checked === true ? 
+    option3 = "selected" :
+    option3 = "not selected";
+
+    document.getElementById('option4').checked === true ? 
+    option4 = "selected" :
+    option4 = "not selected";
+
+    document.getElementById('option5').checked === true ? 
+    option5 = "selected" :
+    option5 = "not selected";
 
 
-function newId() {
-    const shortId = require('short-uuid');
-    console.log(shortId.generate());
+
+    const information = "Email: " + emailQuote1 + "\nNumber of People " + numberOfPeople 
+    + "\nOption1: " + option1 +   "\nOption2: " + option2
+    + "\nOption3: " + option3 +   "\nOption4: " + option4;
+
+    console.log(information);
+
+    //     var nodemailer = require("nodemailer");
+    //     var transporter = nodemailer.createTransport({
+    //     service: "gmail",
+    //     auth: {
+    //         user: "guilhermecaeirotests@gmail.com",
+    //         pass: "12345678SUP",
+    //     },
+    //     });
+    //     var mailOptions = {
+    //     from: "guilhermecaeirotests@gmail.com",
+    //     to: "toolt2y@gmail.com",
+    //     subject: information,
+    //     text: "That was easy!",
+    //     };
+    //     transporter.sendMail(mailOptions, function (error, info) {
+    //     if (error) {
+    //         console.log(error);
+    //     } else {
+    //         console.log("Email sent: " + info.response);
+    //     }
+    //     });
+
+
 }
-
-
 
 
 function writeToFile() { 

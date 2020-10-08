@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Lodge</title>
+    <script src="/script.75da7f30.js"></script>
+    <script src="/FileSaver.cd59b0cf.js"></script>
+    <link rel="stylesheet" href="/style.e308ff8e.css">
+</head>
+
+<body>
+  <img src="/logo-edit.4a06b2c2.png" alt="tech logo" class="logo">
+    
+    <div class="menu-bar">
+            <a href="/index.html">Home</a>
+            <a href="/health.html">Health Benefits</a>
+            <a href="/pictures.html">Pictures</a>
+            <a href="/packages.html">Our Packages</a>
+            <a href="/contact.html" class="active">Contact Us</a>
+    </div>    
+
+            <h3>Contact Form</h3>
+
+            <div class="container">
+              <form>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="firstname" placeholder="Please enter your first name...">
+            
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="lastname" placeholder="Please ener your last name...">
+            
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option class="australia" value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                  <option value="chile">Chile</option>
+                  <option value="mexico">Mexico</option>
+                  <option value="germany">Germany</option>
+                  <option value="peru">Peru</option>
+                  <option value="portugal">Portugal</option>
+                  <option value="russia">Russia</option>
+                </select>
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="We will reply as soon as possible" style="height:200px"></textarea>
+            
+                <br><br><button class="submit" onclick="writeToFile()">Submit</button>
+               </form>
+            </div><br><br>
+        </body>
+
+<footer>
+  <p>This website was made by Sebastian Barckhahn, founder of TechLodge Inc.</p>
+</footer>
+</html>

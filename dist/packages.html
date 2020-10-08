@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Lodge</title>
+    <script src="/script.75da7f30.js"></script>
+    <link rel="stylesheet" href="/style.e308ff8e.css">
+<script src="/contact.js"></script></head>
+<body>
+    <img src="/logo-edit.4a06b2c2.png" alt="tech logo" class="logo">
+
+    <div class="menu-bar">
+            <a href="/index.html">Home</a>
+            <a href="/health.html">Health Benefits</a>
+            <a href="/pictures.html">Pictures</a>
+            <a href="/packages.html" class="active">Our Packages</a>
+            <a href="/contact.html">Contact Us</a>
+    </div>
+    <h2>Our Packages</h2>
+
+    <div class="packages-box">
+        <img class="pic-box" src="/chile-lodge.1a79468d.jpg">
+        
+        <div class="text-box">
+            <h3 style="text-align: center; margin: auto">Chilean Lodge</h3>
+
+            <h5>Located in Puerto Varas in the Los Lagos region and Pablo Fierro
+                Museum reachable within 21 km, Cabañas Estrella del Sur provides
+                accommodation with free WiFi, BBQ facilities, a garden and 
+                free private parking.<br>
+                The lodge provides guests with a patio, garden views, a 
+                seating area, cable flat-screen TV, a fully equipped kitchen 
+                with a microwave and a fridge, and a private bathroom with 
+                shower and free toiletries. For added convenience, the property 
+                can provide towels and bed linen for an extra charge.<br>                
+            </h5>
+
+            <div class="email-people1">
+            <label for="email-quote1"><h5 style="text-align: center;">
+                E-mail</h5></label>
+            <textarea id="email-quote1" name="email-quote1">To reply your quote</textarea>
+            
+            <label for="number-people1"><h5 style="text-align: center;">
+                Number of people</h5></label>
+
+            <select name="number-people1" id="number-people1">
+              <option value="1">1</option>
+              <option value="2">3</option>
+              <option value="3">4</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+            </select>
+            </div>
+            
+        </div>
+
+        <div class="box-menu"> 
+            <h5 style="text-align: center;">  
+            <p>Extras (to add to your experience)
+            </p>
+        </h5>
+        <div style="text-align: justify;">  
+            <input type="radio" id="option1">
+            <label for="option1">Transportation to and from the airport</label><br><br>
+            <input type="radio" id="option2">
+            <label for="option2">Activities with the local community</label><br><br>
+            <input type="radio" id="option3">
+            <label for="option3">Tour around the area</label><br><br>
+            <input type="radio" id="option4">
+            <label for="option4">Cooking lessons</label><br>
+        </div>
+        </div> 
+    
+        <div class="button-box">
+            <button onclick="clearSelection1()">Clear Selection</button><br><br>
+            <button onclick="quote1()">Quote Now!</button>
+            <!-- <button >Pay</button> -->
+        </div>
+    </div>
+
+
+    <br><br><div class="packages-box">
+        <img class="pic-box" src="/germany-lodge.de1b48cc.jpg">
+        
+        <div class="text-box">
+            <h3 style="text-align: center; margin: auto">German Lodge</h3>
+            <h5>All units are SmartHome lodges designed in a Cargo container.
+                Each unit has an iPad, a terrace with mountain views, a fully
+                 equipped kitchenette and a private bathroom with shower. 
+                 A balcony with garden views is offered in every unit.                
+                The lodge offers a barbecue.                
+                Ski-to-door access and a ski pass sales point can be found 
+                at BERGHEIM Container Lodge, along with a garden.  
+            </h5>
+
+            <div class="email-people1">
+                <label for="email-quote2"><h5 style="text-align: center;">
+                    E-mail</h5></label>
+                <textarea id="email-quote2" name="email-quote2">To reply your quote
+                </textarea>
+                
+                <label for="number-people2"><h5 style="text-align: center;">
+                    Number of people</h5></label>
+    
+                <select name="number-people2" id="number-people2">
+                  <option value="1">1</option>
+                  <option value="2">3</option>
+                  <option value="3">4</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="12">17</option>
+                  <option value="13">18</option>
+                  <option value="14">19</option>
+                  <option value="15">20</option>
+                  <option value="16">21</option>
+                </select>const information = "Email: " + emailQuote1 + "\nNumber of People " + numberOfPeople 
+                // + "\nOption1: " + option1 +   "\nOption2: " + option2
+                // + "\nOption3: " + option3 +   "\nOption4: " + option4;
+            
+                // console.log(information);
+            
+                //     var nodemailer = require("nodemailer");
+                //     var transporter = nodemailer.createTransport({
+                //     service: "gmail",
+                //     auth: {
+                //         user: "guilhermecaeirotests@gmail.com",
+                //         pass: "12345678SUP",
+                //     },
+                //     });
+                //     var mailOptions = {
+                //     from: "guilhermecaeirotests@gmail.com",
+                //     to: "toolt2y@gmail.com",
+                //     subject: information,
+                //     text: "That was easy!",
+                //     };
+                //     transporter.sendMail(mailOptions, function (error, info) {
+                //     if (error) {
+                //         console.log(error);
+                //     } else {
+                //         console.log("Email sent: " + info.response);
+                //     }
+                //     });
+                </div>
+
+        </div>
+
+        <div class="box-menu"> 
+            <h5 style="text-align: center;"> 
+            <p>Extras (to add to your experience)
+            </p>
+        </h5>
+        <div style="text-align: justify;">
+            <input type="radio" id="option5">
+            <label for="option1">Transportation to and from the airport</label><br><br>
+            <input type="radio" id="option6">
+            <label for="option2">Activities with the local community</label><br><br>
+            <input type="radio" id="option7">
+            <label for="option3">Tour around the area</label><br><br>
+            <input type="radio" id="option8">
+            <label for="option4">Cooking lessons</label><br>
+        </div>
+        </div> 
+    
+        <div class="button-box">
+            <button onclick="clearSelection2()">Clear Selection</button><br><br>
+            <button>Quote Now!</button>
+            <!-- <button >Pay</button> -->
+        </div>
+    </div>
+
+    <br><br><div class="packages-box">
+        <img class="pic-box" src="/mexico-lodge.2060fee2.jpg">
+        
+        <div class="text-box">
+            <h3 style="text-align: center; margin: auto">Mexican Lodge</h3>
+            <h5>During your stay at Mexico Lodge, you will be close to Bahari Beach. 
+                You'll find features like free breakfast, free WiFi in public areas, 
+                and free self-parking. This 3-star lodge has 15 rooms. All rooms offer 
+                free WiFi and flat screen TVs.<br>
+                Typical of Top End seasonality, Bamurru Plains usually runs
+                 between March and October annually. 
+                </h5> <br>
+
+            <div class="email-people1">
+                <label for="email-quote3"><h5 style="text-align: center;">
+                    E-mail</h5></label>
+                <textarea id="email-quote3" name="email-quote3">To reply your quote
+                </textarea>
+                
+                <label for="number-people3"><h5 style="text-align: center;">
+                    Number of people</h5></label>
+    
+                <select name="number-people3" id="number-people3">
+                  <option value="1">1</option>
+                  <option value="2">3</option>
+                  <option value="3">4</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="12">17</option>
+                  <option value="13">18</option>
+                  <option value="14">19</option>
+                  <option value="15">20</option>
+                  <option value="16">21</option>
+                </select>
+                </div>
+        </div>
+
+        <div class="box-menu"> 
+            <h5 style="text-align: center;"> 
+            <p>Extras (to add to your experience)
+            </p>
+        </h5>
+        <div style="text-align: justify;">
+            <input type="radio" id="option9">
+            <label for="option1">Transportation to and from the airport</label><br><br>
+            <input type="radio" id="option10">
+            <label for="option2">Activities with the local community</label><br><br>
+            <input type="radio" id="option11">
+            <label for="option3">Tour around the area</label><br><br>
+            <input type="radio" id="option12">
+            <label for="option4">Cooking lessons</label><br>
+        </div>
+        </div> 
+    
+        <div class="button-box">
+            <button onclick="clearSelection3()">Clear Selection</button><br><br>
+            <button>Quote Now!</button>
+            <!-- <button >Pay</button> -->
+        </div>
+    </div>
+
+    <br><br><div class="packages-box">
+        <img class="pic-box" src="/peru-lodge.68889de5.jpg">
+        
+        <div class="text-box">
+            <h3 style="text-align: center; margin: auto">Peruvian Lodge</h3>
+            <h5>Accessed from Puerto Maldonado, and near one of the largest macaw
+                clay licks in the Amazon Rainforest, the Tambopata Research
+                 Center is positioned inside the wildlife-rich Tambopata National Reserve.<br>
+                 When you arrive, you will hear the sounds of birds and monkeys in the surrounding rainforest. 
+                 You will first relax at the comfortable lodge and then begin your rainforest 
+                 adventure with your skilled local guide.
+            </h5>
+
+            <div class="email-people1">
+                <label for="email-quote4"><h5 style="text-align: center;">
+                    E-mail</h5></label>
+                <textarea id="email-quote4" name="email-quote4">To reply your quote
+                </textarea>
+                
+                <label for="number-people4"><h5 style="text-align: center;">
+                    Number of people</h5></label>
+    
+                <select name="number-people4" id="number-people4">
+                  <option value="1">1</option>
+                  <option value="2">3</option>
+                  <option value="3">4</option>
+                  <option value="4">4</option>const shortid1 = require('shortid');
+
+                  // const newId = shortid1.generate();
+                  // const newId1 = shortid.generate();
+                   
+                  // console.log(newId);
+                  // console.log(newId1);
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="12">17</option>
+                  <option value="13">18</option>
+                  <option value="14">19</option>
+                  <option value="15">20</option>
+                  <option value="16">21</option>
+                </select>
+                </div>
+        </div>
+
+        <div class="box-menu"> 
+            <h5 style="text-align: center;">   
+            <p>Extras (to add to your experience)
+            </p>
+        </h5>
+        <div style="text-align: justify;">
+            <input type="radio" id="option13">
+            <label for="option1">Transportation to and from the airport</label><br><br>
+            <input type="radio" id="option14">
+            <label for="option2">Activities with the local community</label><br><br>
+            <input type="radio" id="option15">
+            <label for="option3">Tour around the area</label><br><br>
+            <input type="radio" id="option16">
+            <label for="option4">Cooking lessons</label><br>
+        </div>
+        </div> 
+    
+        <div class="button-box">
+            <button onclick="clearSelection4()">Clear Selection</button><br><br>
+            <button>Quote Now!</button>
+            <!-- <button >Pay</button> -->
+        </div>
+        </div>
+
+        <br><br><div class="packages-box">
+            <img class="pic-box" src="/australia-lodge.b6fd2278.jpg">
+
+        <div class="text-box">
+            <h3 style="text-align: center; margin: auto">Australian Tech Lodge</h3>
+            <h5>Bamurru Plains is an extraordinary bush experience on the edge 
+                of Kakadu National Park in Australia’s Northern Territory1. 
+                The Top End of the Northern Territory experiences some of the 
+                greatest climatic extremes (wet and dry particularly) of any 
+                region of Australia. The coastal floodplains of northern Australia 
+                are home to prolific bird and wildlife (Australia's answer to the 
+                Okavango Delta) whilst Kakadu and Arnhem Land are the heartland 
+                of the country’s aboriginal culture. 
+            </h5>
+            <div class="email-people1">
+                <label for="email-quote5"><h5 style="text-align: center;">
+                    E-mail</h5></label>
+                <textarea id="email-quote5" name="email-quote5">To reply your quote
+                </textarea>
+                
+                <label for="number-people5"><h5 style="text-align: center;">
+                    Number of people</h5></label>
+    
+                <select name="number-people5" id="number-people5">
+                  <option value="1">1</option>
+                  <option value="2">3</option>
+                  <option value="3">4</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="12">17</option>
+                  <option value="13">18</option>
+                  <option value="14">19</option>
+                  <option value="15">20</option>
+                  <option value="16">21</option>
+                </select>
+                </div>
+
+        </div>
+
+        <div class="box-menu"> 
+            <h5 style="text-align: center;">  
+            <p>Extras (to add to your experience)
+            </p>
+        </h5>
+        <div style="text-align: justify;">
+            <input type="radio" id="option17">
+            <label for="option1">Transportation to and from the airport</label><br><br>
+            <input type="radio" id="option18">
+            <label for="option2">Activities with the local community</label><br><br>
+            <input type="radio" id="option19">
+            <label for="option3">Tour around the area</label><br><br>
+            <input type="radio" id="option20">
+            <label for="option4">Cooking lessons</label><br>
+        </div>
+        </div> 
+    
+        <div class="button-box">
+            <button onclick="clearSelection5()">Clear Selection</button><br><br>
+            <button>Quote Now!</button>
+            <!-- <button >Pay</button> -->
+        </div>
+    </div>
+
+</body>
+
+<br>
+<br>
+<footer>
+        <p>This website was made by Sebastian Barckhahn, founder of TechLodge Inc.</p>
+</footer>
+
+</html>
