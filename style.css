@@ -16,27 +16,27 @@ h1{
 h2{
   text-align: center;
   font-size: 40px;
-  color: rgb(0, 111, 119);
+  color: rgb(4, 42, 59);;
 }
 
 h3{
   text-align: left;
   margin-left: 10%;
   font-size: xx-large;
-  color: rgb(0, 111, 119);
+  color: rgb(4, 42, 59);;
 }
 
 h4{
   color: rgb(0, 111, 119);
   font-size: 22px;
   text-align: justify;    
-
 }
 
 h5{
   margin: 5%;
   text-align: justify;
   font-size: 18px;
+  color: rgb(4, 42, 59);
 }
 
 .menu-bar {
@@ -222,6 +222,11 @@ h5{
   background: rgb(198, 240, 236);    
   }
 
+  .email-people1{
+    display: grid;
+    grid-template-columns: 150px 300px;
+
+  }
 
 .pic-box{
   grid-row-start: 1;
@@ -242,7 +247,7 @@ h5{
   grid-row-start: 1;
   grid-row-end: 3;
   grid-column-start: 2;
-  grid-column-end: 4;
+  grid-column-end: 3;
 
 }
 
@@ -252,6 +257,17 @@ h5{
   grid-column-start: 5;
   grid-column-end: 6;
 
+}
+
+
+#email-quote1{
+  height: 15px; 
+  width: 200px;  
+}
+
+#number-people1{
+  height: 30px; 
+  width: 100px;
 }
 
 .button-box{

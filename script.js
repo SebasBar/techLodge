@@ -19,7 +19,7 @@ function clearSelection1(){
     document.getElementById('option3').checked = false;
     document.getElementById('option4').checked = false;
     }
-
+    
 function clearSelection2(){
 
     document.getElementById('option5').checked = false;
@@ -51,3 +51,8 @@ function clearSelection5(){
     document.getElementById('option19').checked = false;
     document.getElementById('option20').checked = false;
     }
+
+function openSubmit(){
+    alert("Your selction was saved. Now please fill your information so we can contact you")
+    window.open('https://sebasbar.github.io/techLodge/contact.html');
+}
