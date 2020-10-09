@@ -19,13 +19,15 @@
     </div>
     <h2>Our Packages</h2>
 
+<!-- CHILEAN LODGE -->
+
     <div class="packages-box">
         <img class="pic-box" src="/chile-lodge.1a79468d.jpg">
         
         <div class="text-box">
             <h3 style="text-align: center; margin: auto">Chilean Lodge</h3>
 
-            <h5>Located in Puerto Varas in the Los Lagos region and Pablo Fierro
+            <h6>Located in Puerto Varas in the Los Lagos region and Pablo Fierro
                 Museum reachable within 21 km, Cabañas Estrella del Sur provides
                 accommodation with free WiFi, BBQ facilities, a garden and 
                 free private parking.<br>
@@ -34,7 +36,7 @@
                 with a microwave and a fridge, and a private bathroom with 
                 shower and free toiletries. For added convenience, the property 
                 can provide towels and bed linen for an extra charge.<br>                
-            </h5>
+            </h6>
 
             <div class="email-people1">
             <label for="email-quote1"><h5 style="text-align: center;">
@@ -95,79 +97,53 @@
         </div>
     </div>
 
+<!-- GERMAN LODGE -->
 
     <br><br><div class="packages-box">
         <img class="pic-box" src="/germany-lodge.de1b48cc.jpg">
         
         <div class="text-box">
             <h3 style="text-align: center; margin: auto">German Lodge</h3>
-            <h5>All units are SmartHome lodges designed in a Cargo container.
+            <h6>All units are SmartHome lodges designed in a Cargo container.
                 Each unit has an iPad, a terrace with mountain views, a fully
                  equipped kitchenette and a private bathroom with shower. 
                  A balcony with garden views is offered in every unit.                
                 The lodge offers a barbecue.                
                 Ski-to-door access and a ski pass sales point can be found 
                 at BERGHEIM Container Lodge, along with a garden.  
-            </h5>
+            </h6>
 
             <div class="email-people1">
                 <label for="email-quote2"><h5 style="text-align: center;">
                     E-mail</h5></label>
-                <textarea id="email-quote2" name="email-quote2">To reply your quote
-                </textarea>
+                <textarea id="email-quote2" name="email-quote2">To reply your quote</textarea>
                 
                 <label for="number-people2"><h5 style="text-align: center;">
                     Number of people</h5></label>
     
                 <select name="number-people2" id="number-people2">
-                  <option value="1">1</option>
-                  <option value="2">3</option>
-                  <option value="3">4</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
-                  <option value="8">8</option>
-                  <option value="9">9</option>
-                  <option value="10">10</option>
-                  <option value="11">11</option>
-                  <option value="12">12</option>
-                  <option value="13">13</option>
-                  <option value="14">14</option>
-                  <option value="15">15</option>
-                  <option value="16">16</option>
-                  <option value="12">17</option>
-                  <option value="13">18</option>
-                  <option value="14">19</option>
-                  <option value="15">20</option>
-                  <option value="16">21</option>
-                </select>const information = "Email: " + emailQuote1 + "\nNumber of People " + numberOfPeople 
-                // + "\nOption1: " + option1 +   "\nOption2: " + option2
-                // + "\nOption3: " + option3 +   "\nOption4: " + option4;
-            
-                // console.log(information);
-            
-                //     var nodemailer = require("nodemailer");
-                //     var transporter = nodemailer.createTransport({
-                //     service: "gmail",
-                //     auth: {
-                //         user: "guilhermecaeirotests@gmail.com",
-                //         pass: "12345678SUP",
-                //     },
-                //     });
-                //     var mailOptions = {
-                //     from: "guilhermecaeirotests@gmail.com",
-                //     to: "toolt2y@gmail.com",
-                //     subject: information,
-                //     text: "That was easy!",
-                //     };
-                //     transporter.sendMail(mailOptions, function (error, info) {
-                //     if (error) {
-                //         console.log(error);
-                //     } else {
-                //         console.log("Email sent: " + info.response);
-                //     }
-                //     });
+                    <option value="1">1</option>
+                    <option value="2">3</option>
+                    <option value="3">4</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    </select>
                 </div>
 
         </div>
@@ -189,58 +165,60 @@
         </div>
         </div> 
     
-        <div class="button-box">
+        <div class="button-box"><br>
             <button onclick="clearSelection2()">Clear Selection</button><br><br>
-            <button>Quote Now!</button>
+            <button onclick="quote2()">Quote Now!</button>
             <!-- <button >Pay</button> -->
         </div>
     </div>
+
+    <!-- MEXICAN LODGE -->
 
     <br><br><div class="packages-box">
         <img class="pic-box" src="/mexico-lodge.2060fee2.jpg">
         
         <div class="text-box">
             <h3 style="text-align: center; margin: auto">Mexican Lodge</h3>
-            <h5>During your stay at Mexico Lodge, you will be close to Bahari Beach. 
+            <h6>During your stay at Mexico Lodge, you will be close to Bahari Beach. 
                 You'll find features like free breakfast, free WiFi in public areas, 
                 and free self-parking. This 3-star lodge has 15 rooms. All rooms offer 
                 free WiFi and flat screen TVs.<br>
                 Typical of Top End seasonality, Bamurru Plains usually runs
                  between March and October annually. 
-                </h5> <br>
+            </h6> <br>
 
             <div class="email-people1">
                 <label for="email-quote3"><h5 style="text-align: center;">
                     E-mail</h5></label>
-                <textarea id="email-quote3" name="email-quote3">To reply your quote
-                </textarea>
+                <textarea id="email-quote3" name="email-quote3">To reply your quote</textarea>
                 
                 <label for="number-people3"><h5 style="text-align: center;">
                     Number of people</h5></label>
     
-                <select name="number-people3" id="number-people3">
-                  <option value="1">1</option>
-                  <option value="2">3</option>
-                  <option value="3">4</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
-                  <option value="8">8</option>
-                  <option value="9">9</option>
-                  <option value="10">10</option>
-                  <option value="11">11</option>
-                  <option value="12">12</option>
-                  <option value="13">13</option>
-                  <option value="14">14</option>
-                  <option value="15">15</option>
-                  <option value="16">16</option>
-                  <option value="12">17</option>
-                  <option value="13">18</option>
-                  <option value="14">19</option>
-                  <option value="15">20</option>
-                  <option value="16">21</option>
-                </select>
+            <select name="number-people3" id="number-people3">
+              <option value="1">1</option>
+              <option value="2">3</option>
+                
+              <option value="3">4</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+            </select>
                 </div>
         </div>
 
@@ -261,64 +239,59 @@
         </div>
         </div> 
     
-        <div class="button-box">
+        <div class="button-box"><br>
             <button onclick="clearSelection3()">Clear Selection</button><br><br>
-            <button>Quote Now!</button>
+            <button onclick="quote3()">Quote Now!</button>
             <!-- <button >Pay</button> -->
         </div>
     </div>
+
+    <!-- PERUVIAN LODGE -->
 
     <br><br><div class="packages-box">
         <img class="pic-box" src="/peru-lodge.68889de5.jpg">
         
         <div class="text-box">
             <h3 style="text-align: center; margin: auto">Peruvian Lodge</h3>
-            <h5>Accessed from Puerto Maldonado, and near one of the largest macaw
+            <h6>Accessed from Puerto Maldonado, and near one of the largest macaw
                 clay licks in the Amazon Rainforest, the Tambopata Research
                  Center is positioned inside the wildlife-rich Tambopata National Reserve.<br>
                  When you arrive, you will hear the sounds of birds and monkeys in the surrounding rainforest. 
                  You will first relax at the comfortable lodge and then begin your rainforest 
                  adventure with your skilled local guide.
-            </h5>
+            </h6>
 
             <div class="email-people1">
                 <label for="email-quote4"><h5 style="text-align: center;">
                     E-mail</h5></label>
-                <textarea id="email-quote4" name="email-quote4">To reply your quote
-                </textarea>
+                <textarea id="email-quote4" name="email-quote4">To reply your quote</textarea>
                 
                 <label for="number-people4"><h5 style="text-align: center;">
                     Number of people</h5></label>
     
                 <select name="number-people4" id="number-people4">
-                  <option value="1">1</option>
-                  <option value="2">3</option>
-                  <option value="3">4</option>
-                  <option value="4">4</option>const shortid1 = require('shortid');
-
-                  // const newId = shortid1.generate();
-                  // const newId1 = shortid.generate();
-                   
-                  // console.log(newId);
-                  // console.log(newId1);
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
-                  <option value="8">8</option>
-                  <option value="9">9</option>
-                  <option value="10">10</option>
-                  <option value="11">11</option>
-                  <option value="12">12</option>
-                  <option value="13">13</option>
-                  <option value="14">14</option>
-                  <option value="15">15</option>
-                  <option value="16">16</option>
-                  <option value="12">17</option>
-                  <option value="13">18</option>
-                  <option value="14">19</option>
-                  <option value="15">20</option>
-                  <option value="16">21</option>
-                </select>
+                    <option value="1">1</option>
+                    <option value="2">3</option>
+                    <option value="3">4</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    </select>
                 </div>
         </div>
 
@@ -339,19 +312,22 @@
         </div>
         </div> 
     
-        <div class="button-box">
+        <div class="button-box"><br>
             <button onclick="clearSelection4()">Clear Selection</button><br><br>
-            <button>Quote Now!</button>
+            <button onclick="quote4()">Quote Now!</button>
             <!-- <button >Pay</button> -->
         </div>
         </div>
+
+        <!-- AUSTRALIAN LODGE -->
+                
 
         <br><br><div class="packages-box">
             <img class="pic-box" src="/australia-lodge.b6fd2278.jpg">
 
         <div class="text-box">
             <h3 style="text-align: center; margin: auto">Australian Tech Lodge</h3>
-            <h5>Bamurru Plains is an extraordinary bush experience on the edge 
+            <h6>Bamurru Plains is an extraordinary bush experience on the edge 
                 of Kakadu National Park in Australia’s Northern Territory1. 
                 The Top End of the Northern Territory experiences some of the 
                 greatest climatic extremes (wet and dry particularly) of any 
@@ -359,39 +335,39 @@
                 are home to prolific bird and wildlife (Australia's answer to the 
                 Okavango Delta) whilst Kakadu and Arnhem Land are the heartland 
                 of the country’s aboriginal culture. 
-            </h5>
+            </h6>
             <div class="email-people1">
                 <label for="email-quote5"><h5 style="text-align: center;">
                     E-mail</h5></label>
-                <textarea id="email-quote5" name="email-quote5">To reply your quote
-                </textarea>
+                <textarea id="email-quote5" name="email-quote5">To reply your quote</textarea>
                 
-                <label for="number-people5"><h5 style="text-align: center;">
+                <label for="number-people5"><h5 style="
+                    text-align: center;">
                     Number of people</h5></label>
     
                 <select name="number-people5" id="number-people5">
-                  <option value="1">1</option>
-                  <option value="2">3</option>
-                  <option value="3">4</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
-                  <option value="8">8</option>
-                  <option value="9">9</option>
-                  <option value="10">10</option>
-                  <option value="11">11</option>
-                  <option value="12">12</option>
-                  <option value="13">13</option>
-                  <option value="14">14</option>
-                  <option value="15">15</option>
-                  <option value="16">16</option>
-                  <option value="12">17</option>
-                  <option value="13">18</option>
-                  <option value="14">19</option>
-                  <option value="15">20</option>
-                  <option value="16">21</option>
-                </select>
+                    <option value="1">1</option>
+                    <option value="2">3</option>
+                    <option value="3">4</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    </select>
                 </div>
 
         </div>
@@ -413,9 +389,9 @@
         </div>
         </div> 
     
-        <div class="button-box">
+        <div class="button-box"><br>
             <button onclick="clearSelection5()">Clear Selection</button><br><br>
-            <button>Quote Now!</button>
+            <button onclick="quote5()">Quote Now!</button>
             <!-- <button >Pay</button> -->
         </div>
     </div>

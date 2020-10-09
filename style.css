@@ -62,7 +62,8 @@ h6{
     color: white;
     display: block;
     margin-left: auto;
-    margin-right: auto;  text-align: center;
+    margin-right: auto;  
+    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
@@ -116,7 +117,7 @@ h6{
     padding: 3px;
   }
 
-  form{
+  form {
     color:whitesmoke;
   }
 
@@ -129,7 +130,7 @@ h6{
     width: 98%;
     padding: 12px;
     color: rgb(6, 56, 97);
-    border: 1px solid #ccc;submit
+    border: 1px solid #ccc;
     margin-bottom: 16px;
 
   }
@@ -197,11 +198,13 @@ h6{
     margin: auto;
     padding: 20px;
   }
+
   .pic4 {  
     display: block;
     margin: auto;
     padding: 20px;
   }
+
   .pic5 {  
     display: block;
     margin: auto;
@@ -221,11 +224,11 @@ h6{
   margin-left: auto;
   margin-right: auto;
   border-style: solid;
-  border-color: rgb(64, 147, 224);
+  border-color: rgb(67, 162, 185);
   border-radius: 20px;
   width: 1000px;
   padding: 20px;
-  background: rgb(198, 240, 236);    
+  background: rgb(81, 196, 224);    
   }
 
 .email-people1{
@@ -266,52 +269,52 @@ h6{
 
 #email-quote1{
   height: 15px; 
-  width: 200px;  
+  width: 300px;  
 }
 
 #number-people1{
   height: 45px; 
-  width: 100px;
+  width: 60px;
 }
 
 #email-quote2{
   height: 15px; 
-  width: 200px;  
+  width: 300px;  
 }
 
 #number-people2{
   height: 45px; 
-  width: 100px;
+  width: 60px;
 }
 
 #email-quote3{
   height: 15px; 
-  width: 200px;  
+  width: 300px;  
 }
 
 #number-people3{
   height: 45px; 
-  width: 100px;
+  width: 60px;
 }
 
 #email-quote4{
   height: 15px; 
-  width: 200px;  
+  width: 300px;   
 }
 
 #number-people4{
   height: 45px; 
-  width: 100px;
+  width: 60px;
 }
 
 #email-quote5{
   height: 15px; 
-  width: 200px;  
+  width: 300px;  
 }
 
 #number-people5{
   height: 45px; 
-  width: 100px;
+  width: 60px;
 }
 
 .button-box{
